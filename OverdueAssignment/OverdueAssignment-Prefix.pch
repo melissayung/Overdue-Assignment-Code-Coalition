@@ -10,6 +10,15 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#define TASKSLIST @"AMYTasksList" // key for the big 'tasks list' dictionary
+
+// keys for the task dictionary within the 'tasks list' dictionary
+#define TASKIDENTIFIER @"AMYTaskIdentifier"
+#define TASKNAME @"AMYTaskName"
+#define TASKDETAILS @"AMYTaskDetails"
+#define TASKTIMESTAMP @"AMYTaskTimestamp"
+#define TASKCOMPLETE @"AMYTaskComplete"
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>

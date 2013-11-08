@@ -6,8 +6,13 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface AMYViewController : UIViewController
+#import "AMYAddTaskViewController.h"
+
+@interface AMYViewController : UIViewController<AMYAddTaskViewControllerDelegate, UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UITableView *tasksTable;
+- (IBAction)reorderTasksBtnPressed:(UIBarButtonItem *)sender;
 
 @end

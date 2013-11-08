@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70EAFE18182CF6930031B2FF /* AMYTaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAFE17182CF6930031B2FF /* AMYTaskTableViewCell.m */; };
 		70FB637F1827EF17000078B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB637E1827EF17000078B4 /* Foundation.framework */; };
 		70FB63811827EF17000078B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB63801827EF17000078B4 /* CoreGraphics.framework */; };
 		70FB63831827EF17000078B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB63821827EF17000078B4 /* UIKit.framework */; };
@@ -21,6 +22,14 @@
 		70FB63A01827EF17000078B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB63821827EF17000078B4 /* UIKit.framework */; };
 		70FB63A81827EF17000078B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70FB63A61827EF17000078B4 /* InfoPlist.strings */; };
 		70FB63AA1827EF17000078B4 /* OverdueAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63A91827EF17000078B4 /* OverdueAssignmentTests.m */; };
+		70FB63B51827F473000078B4 /* AMYAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63B41827F473000078B4 /* AMYAddTaskViewController.m */; };
+		70FB63B81827F48E000078B4 /* AMYDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63B71827F48E000078B4 /* AMYDetailTaskViewController.m */; };
+		70FB63BB1827F49A000078B4 /* AMYEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63BA1827F49A000078B4 /* AMYEditTaskViewController.m */; };
+		70FB63BF182805D4000078B4 /* AMYPersistentTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63BE182805D4000078B4 /* AMYPersistentTaskManager.m */; };
+		70FB63C2182806D2000078B4 /* AMYTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63C1182806D2000078B4 /* AMYTask.m */; };
+		70FB63CD1829151A000078B4 /* PersistentTaskManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB63CC1829151A000078B4 /* PersistentTaskManagerTests.m */; };
+		70FB63D01829156D000078B4 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB63CE1829156D000078B4 /* OCMockitoIOS.framework */; };
+		70FB63D11829156D000078B4 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FB63CF1829156D000078B4 /* OCHamcrestIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70EAFE16182CF6930031B2FF /* AMYTaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYTaskTableViewCell.h; sourceTree = "<group>"; };
+		70EAFE17182CF6930031B2FF /* AMYTaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYTaskTableViewCell.m; sourceTree = "<group>"; };
 		70FB637B1827EF17000078B4 /* OverdueAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverdueAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FB637E1827EF17000078B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70FB63801827EF17000078B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,19 @@
 		70FB63A51827EF17000078B4 /* OverdueAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdueAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		70FB63A71827EF17000078B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70FB63A91827EF17000078B4 /* OverdueAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdueAssignmentTests.m; sourceTree = "<group>"; };
+		70FB63B31827F473000078B4 /* AMYAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYAddTaskViewController.h; sourceTree = "<group>"; };
+		70FB63B41827F473000078B4 /* AMYAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYAddTaskViewController.m; sourceTree = "<group>"; };
+		70FB63B61827F48E000078B4 /* AMYDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYDetailTaskViewController.h; sourceTree = "<group>"; };
+		70FB63B71827F48E000078B4 /* AMYDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYDetailTaskViewController.m; sourceTree = "<group>"; };
+		70FB63B91827F49A000078B4 /* AMYEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYEditTaskViewController.h; sourceTree = "<group>"; };
+		70FB63BA1827F49A000078B4 /* AMYEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYEditTaskViewController.m; sourceTree = "<group>"; };
+		70FB63BD182805D4000078B4 /* AMYPersistentTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYPersistentTaskManager.h; sourceTree = "<group>"; };
+		70FB63BE182805D4000078B4 /* AMYPersistentTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYPersistentTaskManager.m; sourceTree = "<group>"; };
+		70FB63C0182806D2000078B4 /* AMYTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYTask.h; sourceTree = "<group>"; };
+		70FB63C1182806D2000078B4 /* AMYTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYTask.m; sourceTree = "<group>"; };
+		70FB63CC1829151A000078B4 /* PersistentTaskManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistentTaskManagerTests.m; path = ../OverdueAssignment/PersistentTaskManagerTests.m; sourceTree = "<group>"; };
+		70FB63CE1829156D000078B4 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
+		70FB63CF1829156D000078B4 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FB639E1827EF17000078B4 /* XCTest.framework in Frameworks */,
+				70FB63D01829156D000078B4 /* OCMockitoIOS.framework in Frameworks */,
+				70FB63D11829156D000078B4 /* OCHamcrestIOS.framework in Frameworks */,
 				70FB63A01827EF17000078B4 /* UIKit.framework in Frameworks */,
 				70FB639F1827EF17000078B4 /* Foundation.framework in Frameworks */,
 			);
@@ -79,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70840654182A6619000D96EC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				70FB63901827EF17000078B4 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
 		70FB63721827EF17000078B4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +135,8 @@
 		70FB637D1827EF17000078B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70FB63CE1829156D000078B4 /* OCMockitoIOS.framework */,
+				70FB63CF1829156D000078B4 /* OCHamcrestIOS.framework */,
 				70FB637E1827EF17000078B4 /* Foundation.framework */,
 				70FB63801827EF17000078B4 /* CoreGraphics.framework */,
 				70FB63821827EF17000078B4 /* UIKit.framework */,
@@ -112,9 +148,16 @@
 		70FB63841827EF17000078B4 /* OverdueAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				70840654182A6619000D96EC /* Storyboard */,
+				70FB63BC1828058C000078B4 /* Model */,
 				70FB638D1827EF17000078B4 /* AMYAppDelegate.h */,
 				70FB638E1827EF17000078B4 /* AMYAppDelegate.m */,
-				70FB63901827EF17000078B4 /* Main.storyboard */,
+				70FB63B61827F48E000078B4 /* AMYDetailTaskViewController.h */,
+				70FB63B71827F48E000078B4 /* AMYDetailTaskViewController.m */,
+				70FB63B91827F49A000078B4 /* AMYEditTaskViewController.h */,
+				70FB63BA1827F49A000078B4 /* AMYEditTaskViewController.m */,
+				70FB63B31827F473000078B4 /* AMYAddTaskViewController.h */,
+				70FB63B41827F473000078B4 /* AMYAddTaskViewController.m */,
 				70FB63931827EF17000078B4 /* AMYViewController.h */,
 				70FB63941827EF17000078B4 /* AMYViewController.m */,
 				70FB63961827EF17000078B4 /* Images.xcassets */,
@@ -137,6 +180,7 @@
 		70FB63A31827EF17000078B4 /* OverdueAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				70FB63CC1829151A000078B4 /* PersistentTaskManagerTests.m */,
 				70FB63A91827EF17000078B4 /* OverdueAssignmentTests.m */,
 				70FB63A41827EF17000078B4 /* Supporting Files */,
 			);
@@ -150,6 +194,19 @@
 				70FB63A61827EF17000078B4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70FB63BC1828058C000078B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70EAFE16182CF6930031B2FF /* AMYTaskTableViewCell.h */,
+				70EAFE17182CF6930031B2FF /* AMYTaskTableViewCell.m */,
+				70FB63BD182805D4000078B4 /* AMYPersistentTaskManager.h */,
+				70FB63BE182805D4000078B4 /* AMYPersistentTaskManager.m */,
+				70FB63C0182806D2000078B4 /* AMYTask.h */,
+				70FB63C1182806D2000078B4 /* AMYTask.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EAFE18182CF6930031B2FF /* AMYTaskTableViewCell.m in Sources */,
 				70FB638F1827EF17000078B4 /* AMYAppDelegate.m in Sources */,
+				70FB63BF182805D4000078B4 /* AMYPersistentTaskManager.m in Sources */,
 				70FB638B1827EF17000078B4 /* main.m in Sources */,
 				70FB63951827EF17000078B4 /* AMYViewController.m in Sources */,
+				70FB63B51827F473000078B4 /* AMYAddTaskViewController.m in Sources */,
+				70FB63B81827F48E000078B4 /* AMYDetailTaskViewController.m in Sources */,
+				70FB63C2182806D2000078B4 /* AMYTask.m in Sources */,
+				70FB63BB1827F49A000078B4 /* AMYEditTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FB63AA1827EF17000078B4 /* OverdueAssignmentTests.m in Sources */,
+				70FB63CD1829151A000078B4 /* PersistentTaskManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +472,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"/Users/amelysh/Documents/iOS\\ Projects/OverdueAssignment",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OverdueAssignment/OverdueAssignment-Prefix.pch";
@@ -431,6 +496,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"/Users/amelysh/Documents/iOS\\ Projects/OverdueAssignment",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OverdueAssignment/OverdueAssignment-Prefix.pch";
@@ -460,6 +526,7 @@
 				70FB63AF1827EF17000078B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70FB63B01827EF17000078B4 /* Build configuration list for PBXNativeTarget "OverdueAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +535,7 @@
 				70FB63B21827EF17000078B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
